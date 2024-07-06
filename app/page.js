@@ -8,7 +8,7 @@ export default function Home() {
   const cardsConfig = {
     heroCard: {
       type: 'hero',
-      primaryBg: '#2a116b',
+      primaryBg: '#121212',
       title: 'Placeholder title',
       fecha: '00/00/0000',
       descripcion: 'Placeholder description',
@@ -16,14 +16,14 @@ export default function Home() {
     projectCard: {
       type: 'project',
       link: 'cacosat.com',
-      primaryBg: '', // Next Image component from assets
+      primaryBg: '#121212', // Next Image component from assets
       title: 'Placeholder title',
       fecha: '00/00/0000',
       descripcion: 'Placeholder description',
     },
     aboutCard: {
       type: 'about',
-      primaryBg: '', // Next Image component with src from assets
+      primaryBg: '#121212', // Next Image component with src from assets
       title: 'Placeholder title',
       fecha: '00/00/0000',
       descripcion: 'Placeholder description',
@@ -31,14 +31,14 @@ export default function Home() {
     },
     contactCard: {
       type: 'form',
-      primaryBg: '', // Next Image component with src from assets
+      primaryBg: '#121212', // Next Image component with src from assets
       title: 'Title placeholder',
       fecha: '00/00/0000',
 
     }, 
     footerCard: {
       type: 'footer',
-      primaryBg: '#0F0821',
+      primaryBg: '#121212',
       title: 'Placeholder title'
     },
   }
